@@ -30,41 +30,6 @@ local battleForAzerothMenuCriteria =  {
 };
 
 KrowiAF.TooltipData.BattleForAzeroth = {
-    { -- Raiding with Leashes V: Cuteaclysm
-        12079,
-        {
-            {1, 42178, type.Unit}, -- Magmatron
-            {1, 127850, type.Item}, -- Tinytron
-            {2, 41378, type.Unit}, -- Maloriak
-            {2, 127852, type.Item}, -- Discarded Experiment
-            {3, 41376, type.Unit}, -- Nefarian
-            {3, 127853, type.Item}, -- Rattlejaw
-            {4, 45992, type.Unit}, -- Valiona
-            {4, 127857, type.Item}, -- Twilight Clutch Sister
-            {5, 43735, type.Unit}, -- Elementium Monstrosity
-            {5, 127858, type.Item}, -- Bound Stream
-            {6, 43324, type.Unit}, -- Chogall
-            {6, 127859, type.Item}, -- Faceless Minion
-            {7, 45871, type.Unit}, -- Nezir
-            {7, 127863, type.Item}, -- Drafty
-            {8, 46753, type.Unit}, -- Alakir
-            {8, 127862, type.Item}, -- Zephyrian Prince
-            {9, 53691, type.Unit}, -- Shannox
-            {9, 127947, type.Item}, -- Blazehound
-            {10, 52498, type.Unit}, -- Bethtilac
-            {10, 127948, type.Item}, -- Cinderweb Recluse
-            {11, 53494, type.Unit}, -- Baleroc
-            {11, 127950, type.Item}, -- Surger
-            {12, 52571, type.Unit}, -- Majordomo Staghelm
-            {12, 127951, type.Item}, -- Infernal Pyreclaw
-            {13, 55312, type.Unit}, -- Yorsahj The Unsleeping
-            {13, 127952, type.Item}, -- Faceless Mindlasher
-            {14, 53879, type.Unit}, -- Deathwing
-            {14, 127953, type.Item}, -- Corrupted Blood
-            {15, 53879, type.Unit}, -- Deathwing
-            {15, 127954, type.Item}, -- Unstable Tendril
-        }
-    },
     { -- The Zandalari Menu
         12744,
         {
@@ -111,6 +76,60 @@ KrowiAF.TooltipData.BattleForAzeroth = {
             {27, 143038}, -- Honey Bee
         }
     },
+    { -- Battle on Zandalar and Kul Tiras
+        12936, type.Unit,
+        {
+            {1, 139489}, -- Captain Hermes
+            {2, 141588}, -- Bloodtusk
+            {3, 140315}, -- Eddie Fixit
+            {4, 140461}, -- Dilbert Mcclint
+            {5, 140813}, -- Fizzie Sparkwhistle
+            {6, 140880}, -- Michael Skarn
+            {7, 141002}, -- Ellie Vern
+            {8, 141046}, -- Leana Darkwind
+            {9, 141077}, -- Kwint
+            {10, 141969}, -- Spineleaf
+            {11, 141292}, -- Delia Hanako
+            {12, 141479}, -- Burly
+            {13, 141529}, -- Lozu
+            {14, 142151}, -- Jammer
+            {15, 141799}, -- Grady Prett
+            {16, 141814}, -- Korval Darkbeard
+            {17, 141879}, -- Keeyo
+            {18, 141945}, -- Sizzik
+            {19, 139987}, -- Bristlespine
+            {20, 142054}, -- Kusa
+            {21, 142096}, -- Karaga
+            {22, 142114}, -- Talia Sparkbrow
+            {23, 141215}, -- Chitara
+            {24, 142234}, -- Zujai
+        }
+    },
+    { -- Family Battler [Dragonflight] - Hobbyist Aquarist/Hobbyist Aquarist/Critters With Huge Teeth/Element of Success/Human Resources/Machine Learning/Beast Mode/Dragons Make Everything Better/Fun With Flying/Magician's Secrets/Not Quite Dead Yet
+        {13280, 13270, 13271, 13272, 13273, 13274, 13281, 13275, 13277, 13278}, type.Unit,
+        {
+            {1, 139489}, -- Captain Hermes
+            {2, 140315}, -- Eddie Fixit
+            {3, 140461}, -- Dilbert Mcclint
+            {4, 140813}, -- Fizzie Sparkwhistle
+            {5, 140880}, -- Michael Skarn
+            {6, 141002}, -- Ellie Vern
+            {7, 141046}, -- Leana Darkwind
+            {8, 141077}, -- Kwint
+            {9, 141292}, -- Delia Hanako
+            {10, 141479}, -- Burly
+            {11, 141529}, -- Lozu
+            {12, 141799}, -- Grady Prett
+            {13, 141814}, -- Korval Darkbeard
+            {14, 141879}, -- Keeyo
+            {15, 141945}, -- Sizzik
+            {16, 142054}, -- Kusa
+            {17, 142096}, -- Karaga
+            {18, 142114}, -- Talia Sparkbrow
+            {19, 142234}, -- Zujai
+        }
+    },
+   
     { -- Raiding with Leashes VI: Pets of Pandaria
         13469,
         {
@@ -139,6 +158,36 @@ KrowiAF.TooltipData.BattleForAzeroth = {
             {10, 150380, type.Item}, -- Living Amber
             {11, 62837, type.Unit}, -- Grand Empress Shekzeer
             {11, 150381, type.Item}, -- Ravenous Prideling
+        }
+    },
+    { -- Mighty Minions of Mechagon
+        13625, type.Unit,
+        {
+            {1, 154922}, -- Gnomefeaster
+            {2, 154923}, -- Sputtertube
+            {3, 154924}, -- Goldenbot Xd
+            {4, 154925}, -- Creakclank
+            {5, 154926}, -- Ck 9 Micro Oppression Unit
+            {6, 154927}, -- Unit 35
+            {7, 154928}, -- Unit 6
+            {8, 154929}, -- Unit 17
+        }
+    },
+    { -- Nautical Nuisances of Nazjatar
+        13626, type.Unit,
+        {
+            {1, 154910}, -- Prince Wiggletail
+            {2, 154911}, -- Chomp
+            {3, 154912}, -- Silence
+            {4, 154913}, -- Shadowspike Lurker
+            {5, 154914}, -- Pearlhusk Crawler
+            {6, 154915}, -- Elderspawn Of Nalaada
+            {7, 154916}, -- Ravenous Scalespawn
+            {8, 154917}, -- Mindshackle
+            {9, 154918}, -- Kelpstone
+            {10, 154919}, -- Voltgorger
+            {11, 154920}, -- Frenzied Knifefang
+            {12, 154921}, -- Giant Opaline Conch
         }
     },
     { -- Mecha-Safari
