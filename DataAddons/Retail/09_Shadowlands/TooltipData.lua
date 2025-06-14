@@ -3,6 +3,27 @@ local shared = addon.Data.TooltipData.Shared;
 local type = Enum.TooltipDataType;
 
 KrowiAF.TooltipData.Shadowlands = {
+    { -- Battle in the Shadowlands
+        14625, type.Unit,
+        {
+            {1, 173381}, -- Rascal
+            {2, 173377}, -- Faryl
+            {3, 173376}, -- Nightfang
+            {4, 173372}, -- Glitterdust
+            {5, 173331}, -- Addius The Tormentor
+            {6, 173324}, -- Eyegor
+            {7, 173315}, -- Sylla
+            {8, 173303}, -- Scorch
+            {9, 173274}, -- Gorgemouth
+            {10, 173267}, -- Dundley Stickyfingers
+            {11, 173263}, -- Rotgut
+            {12, 173257}, -- Caregiver Maximillian
+            {13, 173129}, -- Thenia
+            {14, 173130}, -- Zolla
+            {15, 173131}, -- Stratios
+            {16, 173133}, -- Jawbone
+        }
+    },
     { -- To All the Squirrels Through Time and Space
         14728, type.Unit,
         {
@@ -105,4 +126,26 @@ KrowiAF.TooltipData.Shadowlands = {
             {25, 176024}, -- Crawbat
         }
     },
+    { -- Abhorrent Adversaries of the Afterlife
+        14881, type.Unit,
+        {
+            {1, 175777}, -- Crystalsnap
+            {2, 175778}, -- Briarpaw
+            {3, 175779}, -- Chittermaw
+            {4, 175780}, -- Mistwing
+            {5, 175781}, -- Sewer Creeper
+            {6, 175782}, -- The Countess
+            {7, 175783}, -- Digallo
+            {8, 175784}, -- Gelatinous
+            {9, 175785}, -- Kostos
+            {10, 175786}, -- Glurp
+        }
+    },
+    { -- A Sly Fox
+        15004, type.Unit,
+        {
+            {1, 179068}, -- Orator Kloe
+        }
+    },
+    
 };
