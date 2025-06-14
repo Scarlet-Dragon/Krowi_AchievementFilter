@@ -131,4 +131,62 @@ KrowiAF.TooltipData.Legion = {
             {16, 115152, type.Item}, -- Wicked Soul
         }
     },
+    { -- Raiding with Leashes V: Cuteaclysm
+        12079,
+        {
+            {1, 42178, type.Unit}, -- Magmatron
+            {1, 127850, type.Item}, -- Tinytron
+            {2, 41378, type.Unit}, -- Maloriak
+            {2, 127852, type.Item}, -- Discarded Experiment
+            {3, 41376, type.Unit}, -- Nefarian
+            {3, 127853, type.Item}, -- Rattlejaw
+            {4, 45992, type.Unit}, -- Valiona
+            {4, 127857, type.Item}, -- Twilight Clutch Sister
+            {5, 43735, type.Unit}, -- Elementium Monstrosity
+            {5, 127858, type.Item}, -- Bound Stream
+            {6, 43324, type.Unit}, -- Chogall
+            {6, 127859, type.Item}, -- Faceless Minion
+            {7, 45871, type.Unit}, -- Nezir
+            {7, 127863, type.Item}, -- Drafty
+            {8, 46753, type.Unit}, -- Alakir
+            {8, 127862, type.Item}, -- Zephyrian Prince
+            {9, 53691, type.Unit}, -- Shannox
+            {9, 127947, type.Item}, -- Blazehound
+            {10, 52498, type.Unit}, -- Bethtilac
+            {10, 127948, type.Item}, -- Cinderweb Recluse
+            {11, 53494, type.Unit}, -- Baleroc
+            {11, 127950, type.Item}, -- Surger
+            {12, 52571, type.Unit}, -- Majordomo Staghelm
+            {12, 127951, type.Item}, -- Infernal Pyreclaw
+            {13, 55312, type.Unit}, -- Yorsahj The Unsleeping
+            {13, 127952, type.Item}, -- Faceless Mindlasher
+            {14, 53879, type.Unit}, -- Deathwing
+            {14, 127953, type.Item}, -- Corrupted Blood
+            {15, 53879, type.Unit}, -- Deathwing
+            {15, 127954, type.Item}, -- Unstable Tendril
+        }
+    },
+    { -- Anomalous Animals of Argus
+        12088, type.Unit,
+        {
+            {1, 128007}, -- Ruinhoof
+            {2, 128008}, -- Foulclaw
+            {3, 128009}, -- Baneglow
+            {4, 128010}, -- Retch
+            {5, 128011}, -- Deathscreech
+            {6, 128012}, -- Gnasher
+            {7, 128013}, -- Bucky
+            {8, 128014}, -- Snozz
+            {9, 128015}, -- Gloamwing
+            {10, 128016}, -- Shadeflicker
+            {11, 128017}, -- Corrupted Blood Of Argus
+            {12, 128018}, -- Marcuus
+            {13, 128019}, -- Watcher
+            {14, 128020}, -- Bloat
+            {15, 128021}, -- Earseeker
+            {16, 128022}, -- Pilfer
+            {17, 128023}, -- Minixis
+            {18, 128024}, -- One Of Many
+        }
+    },    
 };
