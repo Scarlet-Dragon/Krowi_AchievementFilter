@@ -3,6 +3,55 @@ local shared = addon.Data.TooltipData.Shared;
 local type = Enum.TooltipDataType;
 
 KrowiAF.TooltipData.WarlordsOfDaenor = {
+    { -- An Awfully Big Adventure
+        9069, type.Unit,
+        {
+            {1, 66741}, -- Aki The Chosen
+            {2, 87124}, -- Ashlei
+            {3, 66635}, -- Beegle Blastfuse
+            {4, 71933}, -- Blingtron 4000
+            {5, 66557}, -- Bloodknight Antari
+            {6, 66815}, -- Bordin Steadyfist
+            {7, 66819}, -- Brok
+            {8, 68463}, -- Burning Pandaren Spirit
+            {9, 71927}, -- Chen Stormstout
+            {10, 85519}, -- Christoph Vonfeasel
+            {11, 66738}, -- Courageous Yon
+            {12, 83837}, -- Cymre Brightblade
+            {13, 71934}, -- Dr Ion Goldbloom
+            {14, 66734}, -- Farmer Nishi
+            {15, 68462}, -- Flowing Pandaren Spirit
+            {16, 87122}, -- Gargra
+            {17, 66822}, -- Goz Banefury
+            {18, 66639}, -- Gutretch
+            {19, 66730}, -- Hyuna Of The Shrines
+            {20, 67370}, -- Jeremy Feasel
+            {21, 71926}, -- Lorewalker Cho
+            {22, 66522}, -- Lydia Accoste
+            {23, 66675}, -- Major Payne
+            {24, 66733}, -- Moruk
+            {25, 66553}, -- Morulu The Elder
+            {26, 66552}, -- Narrok
+            {27, 66636}, -- Nearly Headless Jacob
+            {28, 66550}, -- Nicki Tinytech
+            {29, 66824}, -- Obalis
+            {30, 66638}, -- Okrut Dragonwaste
+            {31, 66551}, -- Rasan
+            {32, 66918}, -- Seeker Zusshi
+            {33, 71930}, -- Shademaster Kiryn
+            {34, 66466}, -- Stone Cold Trixxy
+            {35, 71929}, -- Sully The Pickle Mcleary
+            {36, 87125}, -- Taralune
+            {37, 71931}, -- Taran Zhu
+            {38, 87110}, -- Tarr The Terrible
+            {39, 68465}, -- Thundering Pandaren Spirit
+            {40, 87123}, -- Vesharr
+            {41, 66739}, -- Wastewalker Shu
+            {42, 68464}, -- Whispering Pandaren Spirit
+            {43, 71932}, -- Wise Mari
+            {44, 71924}, -- Wrathion
+        }
+    },
     { -- The Draenor Gourmet
         9501,
         {
@@ -154,6 +203,26 @@ KrowiAF.TooltipData.WarlordsOfDaenor = {
             {11, 90213, type.Item}, -- Chaos Pup
             {12, 25741, type.Unit}, -- Muru
             {12, 90214, type.Item}, -- Wretched Servant
+        }
+    },
+    { -- Tiny Terrors in Tanaan
+        10052, type.Unit,
+        {
+            {1, 94601}, -- Felsworn Sentry
+            {2, 94637}, -- Corrupted Thundertail
+            {3, 94638}, -- Chaos Pup
+            {4, 94639}, -- Cursed Spirit
+            {5, 94640}, -- Felfly
+            {6, 94641}, -- Tainted Maulclaw
+            {7, 94642}, -- Direflame
+            {8, 94643}, -- Mirecroak
+            {9, 94644}, -- Dark Gazer
+            {10, 94645}, -- Bleakclaw
+            {11, 94646}, -- Vile Blood Of Draenor
+            {12, 94647}, -- Dreadwalker
+            {13, 94648}, -- Netherfist
+            {14, 94649}, -- Skrillix
+            {15, 94650}, -- Defiled Earth
         }
     },
 };
